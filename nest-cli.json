@@ -1,12 +1,14 @@
 {
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
-  "plugins": [
-    {
-      "name": "@nestjs/graphql",
-      "options": {
-        "introspectComments": true
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@nestjs/graphql",
+        "options": {
+          "introspectComments": true
+        }
       }
-    }
-  ]
+    ]
+  }
 }
